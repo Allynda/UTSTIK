@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+    </style>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: auto;
+        }
+        p{
+            text-indent: 50px;
+        }
+    </style>
+
+    <h1 style="background-color: hwb(172 51% 9%);"><center>BARISAN BILANGAN</center></strong></h1>
+    <center>
+        <img src="\static\images\Barisan Bilangan Cover.jpg" width="350" height="250" alt="">
+        <br> <img src="\static\images\Peta Konsep Barisan Bilangan.png" width="350" height="300" alt="">
+    </center>
+    
+    <hr>
+    <p><strong style="font-weight:normal">Barisan bilangan merupakan urutan bilangan yang dibuat dengan suatu aturan tertentu (Djumanta & Susanti, 2008). Bilangan-bilangan yang menyusun barisan disebut suku (Wagiyo, Mulyono, & Susanto, 2008). Misalnya, barisan bilangan</p></strong>
+    <ol type="a">
+        <li><p><strong style="font-weight:normal">40, 44, 48, 52, 56, ..., 116</strong></p></li>
+        <li><p><strong style="font-weight:normal">1, 3, 5, 7, 9, ... 51</strong></p></li>
+        <li><p><strong style="font-weight:normal">2, 4, 6, 8, 10, ..., 30</strong></p></li>
+    </ol>
+    <p><strong style="font-weight:normal">Suatu barisan bilangan dapat pula dibentuk dari bilangan-bilangan yang tidak mempunyai pola (aturan) tertentu, misalnya barisan bilangan 1, 2, 5, 7, 3, 4... . Barisan bilangan seperti ini disebut barisan bilangan sebarang. Bilangan-bilangan yang disebut suku, misalnya pada barisan bilangan ganjil 1, 3, 5, 7, ... suku ke-1 dari barisan tersebut adalah 1, suku ke-2 adalah 3, suku ke-3 adalah 5, dan seterusnya. Pada barisan bilangan, terdapat dua macam barisan, yaitu Barisan Aritmatika dan Barisan Geometri.</p></strong>
+    <ol type="A">
+        <li>Barisan Aritmatika</li>
+        <p><strong style="font-weight:normal">Barisan aritmatika adalah barisan bilangan yang mempunyai beda atau selisih yang tetap antara dua suku barisan yang berurutan. Amati ketiga barisan bilangan berikut.</p></strong>
+        <ol type="a">
+            <li><p><strong style="font-weight:normal">1, 3, 5, 7, 9, ..., Un</strong></p></li>
+            <li><p><strong style="font-weight:normal">99, 96, 93, 90, ..., Un</strong></p></li>
+            <li><p><strong style="font-weight:normal">1, 2, 5, 7, 12, ..., Un</strong></p></li>
+        </ol>
+    <p><strong style="font-weight:normal">Selisih dua suku berurutan pada barisan (a) selalu tetap, yaitu 2. Demikian pula selisih dua suku berurutan pada barisan (b) selalu tetap, yaitu 3. Barisan bilangan yang demikian dinamakan barisan aritmetika. Adapun selisih dua suku berurutan pada barisan (c) tidak tetap. Barisan bilangan (c) bukan merupakan barisan aritmetika.</p></strong>
+    <p><strong style="font-weight:normal">Pada barisan aritmetika, selisih dua suku berurutan dinama kan beda dan dilambangkan dengan b. Secara umum, barisan aritmetika didefinisikan sebagai berikut.</p></strong>
+    <center><img src="\static\images\Barisan Bilangan.png" width="350" height="250" alt=""></center>
+    <ol type="a">
+        <li><h3><strong>Menentukan Suku Ke- <em>n</em> Barisan Aritmatika</strong></h3></li>
+        <p><strong style="font-weight:normal">U1, U2, U3, U4, U5, ..., Un. Selisih atau beda tiap siuku dimisalkan <em>b</em> dan suku pertama dimisalkan <em>a</em>.</p></strong>
+        <left>
+            <img src="\static\images\Suku ke n barisan aritmatika.png" width="350" height="400" alt="">
+        </left>
+        
+    </ol>
+    <li>Barisan Geometri</li>
+    <p><strong style="font-weight:normal">Barisan geometri merupakan barisan bilangan dimana suku yang berurutan memiliki perbandingan yang sama. Perbandingan pada barisan geometri disebut sebagai rasio (r). Amatilah ketiga barisan bilangan di bawah ini.</p></strong>
+    <ol type="a">
+        <li><p><strong style="font-weight:normal">5, 15, 45, 135</strong></p></li>
+        <li><p><strong style="font-weight:normal">160, 80, 40, 20</strong></p></li>
+        <li><p><strong style="font-weight:normal">2, 8, 24, 120</strong></p></li>
+    </ol>
+    <p><strong style="font-weight:normal">Pada barisan (a) tampak bahwa 15/5 = 45/15 = 135/45 = 3</p></strong>
+    <p><strong style="font-weight:normal">Jadi, perbandingan dua suku yang berurutan pada barisan tersebut sama, yaitu 3. Demikian pula dengan barisan (b) memiliki perbandingan yang sama untuk dua suku yang berurutan. Barisan bilangan (a) dan (b) merupakan <em>barisan geometeri</em>. Sedangkan pada barisan (c) perbandingan dua suku yang berurutan tidak sama. Barisan (c) bukan merupakan bairsan geometri. Secara umum, barisan geometri didefinisikan sebagai berikut.</p></strong>
+    <center><img src="\static\images\Barisan Geometri.png" width="350" height="250" alt=""></center>
+    <ol type="a">
+        <li><h3><strong>Menentukan Suku Ke- <em>n</em> Barisan Geometri</strong></h3></li>
+        <p><strong style="font-weight:normal">U1, U2, U3, U4, U5, ..., Un.</p></strong>
+        <p><strong style="font-weight:normal">Misalkan: U1 = <em>a</em>, maka:</p></strong>
+        <left>
+            <img src="\static\images\Suku ke n barisan geometri.png" width="350" height="400" alt="">
+        </left>
+        <left>
+            <img src="\static\images\Suku ke n barisan geometri 2.png" width="500" height="300" alt="">
+        </left>
+    </ol>
+    </ol>
+    <br>
+    
+
+{% endblock %}

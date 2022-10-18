@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+    </style>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: auto;
+        }
+        p{
+            text-indent: 50px;
+        }
+    </style>
+
+    <h1 style="background-color: hwb(172 51% 9%);"><center>DERET BILANGAN</center></strong></h1>
+    <center><img src="\static\images\deret bilangan cover.png" width="450" height="250" alt="">
+        <br>
+        <img src="\static\images\Peta Konsep Deret Bilangan.png" width="350" height="300" alt="">
+    </center>
+    <hr>
+			<p><strong style="font-weight:normal">Deret bilangan merupakan jumlah dari suku-suku dari suatu barisan. Bentuk dari deret bilangan, yaitu U1 + U2 + U3 + ... Un. Sama halnya dengan barisan bilangan, deret bilangan juga memiliki 2 macam deret bilangan, yaitu Deret Aritmatika dan Deret Geometri.</p></strong>
+			<ol type="A">
+			<li>Deret Aritmatika</li>
+			<p><strong style="font-weight:normal">Deret aritmatika adalah barisan yang mempunya pola tertentu, yakni selisih dua suku berurutan sama dan tetap. Dengan kata lain, setiap suku pada barisan ini diperoleh dari suku sebelumnya dengan menambah bilangan tetap. Misalnya barisan bilangan</p></strong>
+			<ol type="a">
+				<li>1 + 3 + 5 + 7 + 9 + ... + Un
+					<p><strong style="font-weight:normal">Deret ini dinamakan <em>deret aritmatika naik</em> karena nilai Un semakin besar.</strong></p></li>
+				<li>99 + 96 + 93 + 90 + ... + Un
+					<p><strong style="font-weight:normal">Deret ini dinamakan dengan <em>deret aritmatika turun</em> karena nilai Un semakin kecil.</strong></p></li>	
+			</ol>
+			<ol type="a">
+				<li><h3><strong>Menentukan Jumlah <em>n</em> Suku Pertama Deret Aritmatika</strong></h3></li>
+				<p><strong style="font-weight:normal">Misalkan, jumlah <em>n</em> suku pertama deret dilambangkan dengan Sn maka</p></strong>
+                <left>
+                    <img src="\static\images\Jumlah n suku pertama deret aritmatika.png" width="350" height="400" alt="">
+                </left>
+			</ol>
+			<li>Deret Geometri</li>
+			<p><strong style="font-weight:normal">Deret geometri adalah sebuah deret dengan sebuah rasio konstanta antara suku yang berurutan. Contoh dari deret geometri sebagai berikut.</p></strong>
+			<ol type="a">
+				<li>1 + 2 + 4 + 8 + 16 + ...</li>
+				<li>2 + 6 + 18 + 54 + 162</li>
+				<li>1 + 4 + 16 + 64 + 256+ ...</li>
+			</ol>
+			<ol type="a">
+				<li><h3><strong>Menentukan Jumlah <em>n</em> Suku Pertama Deret Geometri</strong></h3></li>
+				<p><strong style="font-weight:normal">a + ar + ar^2 + ar^3 + ... + ar^n-1. Barisan penjumlah tersebut disebut <em>deret geometri</em>. Misalkan jumlah <em>n</em> suku pertama deret geometri dilambangkan dengan Sn, maka berlaku hubungan berikut.</p></strong>
+                <left>
+                    <img src="\static\images\Jumlah n suku pertama deret geometri.png" width="350" height="400" alt="">
+                </left>
+			</ol>
+			</ol>
+    
+    
+
+{% endblock %}
